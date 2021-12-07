@@ -1,0 +1,97 @@
+.ProductList-Title > h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ProductList-Title {
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+/* Best Product */
+.BestProduct-Title > h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.BestProduct-Btn {
+  width: 200px;
+  height: 50px;
+  background-color: #fddc01;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+.BestProduct-Main-Row {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.BestProduct-Second-Row {
+  margin-bottom: 3%;
+}
+.BestProduct-Title-Wrap {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Product List */
+.ProductList-Card {
+  background: transparent;
+  border: none;
+  text-align: left;
+}
+
+/* In store */
+.InStroreProduct-Title > h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fddc01;
+}
+
+.InStroreProduct-Title {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.InStoreProduct-Card {
+  background: transparent;
+  border: none;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* Black friday */
+.BlackFriday-Wrap {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding-bottom: 3%;
+  background-color: #fddc01;
+}
+.BlackFirdaySale-Img {
+  float: left;
+  text-align: left;
+}
+.BlackFriday-Sale-Title {
+  padding-left: -5px;
+  padding-top: 65%;
+}
+.BlackFriday-Sale {
+  padding: 0px;
+  margin: 0px;
+  background-color: #000000;
+}

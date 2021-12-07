@@ -1,0 +1,99 @@
+.Products-Page-Row-One {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.All-Products-Page-Wrap {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.Products-card-card-text {
+  display: flex;
+  color: #fddc01;
+}
+
+.AllProducts-card {
+  background: #403d39;
+  border: none;
+  /* border-bottom: 1px solid #fff; */
+}
+.Product-list-filter-col-one {
+  border-right: 0.5px solid rgb(133, 132, 132);
+}
+.Products-AddToCart-btn {
+  background-color: #fddc01;
+  color: #000000;
+  width: 130px;
+  font-weight: 500;
+}
+
+.Product-filter-checkbox {
+  width: 1.1em;
+  height: 1.1em;
+  background-color: #000000;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  outline: #fff;
+}
+
+.Products-Page-Row-Two {
+  width: 100%;
+}
+
+.checkbox-row-wrap {
+  width: 100%;
+}
+
+.Filter-Wrap-main {
+  padding-bottom: 10%;
+  border-top: 0.5px solid rgb(133, 132, 132);
+  border-bottom: 0.5px solid rgb(133, 132, 132);
+  color: #fff;
+}
+.Filter-Wrap-main-two {
+  padding-bottom: 10%;
+  /* border-top: 1px solid #fff; */
+  border-bottom: 0.5px solid rgb(133, 132, 132);
+  color: #fff;
+}
+
+.Product-card-wrap {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  border-bottom: 0.5px solid rgb(133, 132, 132);
+}
+
+.Product-main-pagination {
+  float: right;
+}
+.pagination-row {
+  width: 100%;
+  margin-top: 5%;
+  float: right;
+}
+.pagination {
+  margin-left: 0px;
+  margin-right: 0px;
+  display: inline-block;
+}
+
+.pagination a {
+  color: rgb(255, 255, 255);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #fff;
+  color: #000000;
+}

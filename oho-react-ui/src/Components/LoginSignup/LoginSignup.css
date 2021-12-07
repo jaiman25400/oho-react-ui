@@ -1,0 +1,45 @@
+.Signup-Main-Wrap{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    /* background: #f8f8f8; */
+}
+.Signup-row-two {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Signup-form-control{
+    height: 55px;
+}
+
+.Login-btn{
+    width: 100%;
+    margin-top: 15%;
+    background-color: #FDDC01;
+}
+.Forget-pass-text{
+    text-decoration: none;
+    color: #FDDC01;
+}
+.Login-Title{
+    margin-bottom: 7%;
+}
+.Login-Main-Wrap{
+    padding-top: 13%;
+    padding-bottom: 15%;
+}
+.Terms-text{
+    color: #FDDC01;
+}
+
+.Signup-btn{
+    width: 100%;
+    margin-top: 15%;
+    height: 60px;
+    background-color: #FDDC01;
+}
+
+.Signup-Title{
+    margin-bottom: 7%;
+}

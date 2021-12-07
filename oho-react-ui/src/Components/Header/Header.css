@@ -1,0 +1,18 @@
+ul {
+  display: flex;
+}
+ul > li {
+  list-style-type: none;
+}
+
+.Header-logo>h3{
+  text-align: left;
+}
+
+.Header-icons-wrap-row{
+  width: 70%;
+  float: right;
+}
+.Header-main-row{
+  padding-top: 4%;
+}
