@@ -1,8 +1,9 @@
 import React from 'react';
 import "./AllProducts.css";
 import CapImg from "./Image/Cap.png";
-import { AiFillStar } from "react-icons/ai";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { AiFillStar } from "react-icons/ai";
+// import { MdKeyboardArrowRight } from "react-icons/md";
 
 const AllProducts = () => {
     return (
