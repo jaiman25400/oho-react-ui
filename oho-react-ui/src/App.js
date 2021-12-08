@@ -9,6 +9,8 @@ import Signup from './Components/LoginSignup/Signup';
 import Login from './Components/LoginSignup/Login';
 import Product from './Components/Product/Product';
 import ProductTwo from './Components/Product/ProductTwo';
+import Cart from './Components/CartPages/Cart';
+import ReviewOrder from './Components/ReviewOrder/ReviewOrder';
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
           <Route exact path="/signup" element={<Signup />} /> 
           <Route exact path="/product" element={<Product />} />
           <Route exact path="/producttwo" element={<ProductTwo />} />
-
+          <Route exact path="/cart" element={<Cart />} />
+          <Route exact path="/revieworder" element={<ReviewOrder />} />
 
         </Routes>
         <Footer />
