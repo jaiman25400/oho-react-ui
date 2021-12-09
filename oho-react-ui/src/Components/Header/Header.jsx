@@ -4,14 +4,15 @@ import "./Header.css";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
 import { MdOutlineManageSearch } from "react-icons/md";
+import HeadLogo from "./HeadLogo.png";
 const Header = () => {
     return (
         <>
             <div className="container">
                 <div className="row Header-main-row">
                     <div className="col-xl-3">
-                        <div className="Header-logo">
-                            <h3 className="text-white">OHO</h3>
+                        <div className="Header-logo text-start">
+                            <img src={HeadLogo} alt="HeadLogo" />
                         </div>
                     </div>
                     <div className="col-xl-6">

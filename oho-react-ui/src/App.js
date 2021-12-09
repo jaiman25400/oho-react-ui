@@ -11,6 +11,7 @@ import Product from './Components/Product/Product';
 import ProductTwo from './Components/Product/ProductTwo';
 import Cart from './Components/CartPages/Cart';
 import ReviewOrder from './Components/ReviewOrder/ReviewOrder';
+import DeliveryPage from './Components/DeliveryPage/DeliveryPage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/producttwo" element={<ProductTwo />} />
           <Route exact path="/cart" element={<Cart />} />
           <Route exact path="/revieworder" element={<ReviewOrder />} />
+          <Route exact path="/delivery" element={<DeliveryPage />} />
 
         </Routes>
         <Footer />

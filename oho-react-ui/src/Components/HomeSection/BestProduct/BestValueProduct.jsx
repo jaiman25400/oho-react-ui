@@ -10,7 +10,7 @@ const BestValueProduct = () => {
                         <div className="BestProduct-Title">
                             <h1 className="text-white">Your Best Value Products</h1>
                         </div>
-                        <div>
+                        <div className="mt-4">
                             <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                         <div><button className="btn BestProduct-Btn">SHOP NOW</button></div>

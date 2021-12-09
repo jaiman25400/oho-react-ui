@@ -145,6 +145,24 @@ const Cart = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div className="row Cart-row-Three">
+                        <div className="Cart-buy-details-checkout">
+                            <div className="row">
+                                <div className="col-xl-6">
+                                    <h6 className="text-secondary">Subtotal: <span className="text-white">#24000</span></h6>
+                                </div>
+                                <div className="col-xl-6">
+                                    <h6 className="text-secondary">Delivery: <span className="text-white">#200</span></h6>
+                                </div>
+                            </div>
+                            <h6 className="mt-4 text-secondary">Total: <span className="text-white">#9000</span></h6>
+                            <div className="mt-4">
+                                <button className="btn Cart-buy-button"><h6>Buy All</h6></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
